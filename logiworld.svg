@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">LogiWorld Minecraft server icon</title>
+  <desc id="desc">A floating Minecraft-style grass island with a stone letter L, oak tree, and small castle tower beneath a bright blue sky.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#159cf0"/><stop offset="1" stop-color="#66d8ff"/></linearGradient>
+    <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#f1f1ed"/><stop offset="1" stop-color="#9da3a6"/></linearGradient>
+    <linearGradient id="dirt" x2="0" y2="1"><stop stop-color="#a96831"/><stop offset="1" stop-color="#4d281a"/></linearGradient>
+    <pattern id="blocks" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M0 31.5h32M31.5 0v32" stroke="#142333" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="28" fill="#07131e"/>
+  <rect x="24" y="24" width="464" height="464" rx="20" fill="url(#sky)" stroke="#07131e" stroke-width="12"/>
+  <g fill="#eafaff" opacity=".95">
+    <path d="M62 102h42V80h42v22h27v24H62z"/><path d="M354 88h32V66h42v22h31v24H354z"/>
+    <path d="M386 204h34v-20h34v20h30v22h-98z"/>
+  </g>
+  <g stroke="#0a1720" stroke-width="12" stroke-linejoin="round">
+    <path fill="url(#dirt)" d="M76 318h360l-26 77-48 62-47 26H196l-56-27-40-60z"/>
+    <path fill="#66ba25" d="M66 300h380l-10 38-40 12-40-9-48 15-49-16-50 11-48-15-53 14-39-12z"/>
+    <path fill="url(#blocks)" d="M76 318h360l-26 77-48 62-47 26H196l-56-27-40-60z"/>
+  </g>
+  <g stroke="#0a1720" stroke-width="10" stroke-linejoin="round">
+    <path fill="#80502d" d="M127 280h31v48h-31z"/>
+    <path fill="#4d9e1c" d="M98 255l14-42 28-28 29 10 27 29 1 42-31 20-45 0z"/>
+    <path fill="#6ec02a" d="M111 228l31-20 37 24-19 24-45-5z"/>
+    <path fill="#62666a" d="M340 287v-87h21v-28h25v28h21v87z"/>
+    <path fill="#858a8c" d="M330 200l21-25h15l12 16 12-16h15l22 25v20H330z"/>
+    <path fill="#f5b73d" d="M367 252h20v34h-20z"/>
+  </g>
+  <path d="M174 126h142v48h-86v95h86v49H174z" fill="#0a1118" stroke="#0a1118" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M174 126h142v48h-86v95h86v49H174z" fill="url(#stone)" stroke="#20272c" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M186 143h118M246 174v76M186 293h112" stroke="#ffffff" stroke-opacity=".36" stroke-width="7"/>
+  <path d="M34 34h444v444H34z" fill="none" stroke="#08131d" stroke-width="12"/>
+</svg>
